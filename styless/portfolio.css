@@ -107,6 +107,16 @@ nav li a{
     margin: 0 35px 0 200px;
 }
 
+.header{
+
+    background-image: none;
+}
+
+.banner-profile-pic{
+
+    width: 100%;
+}
+
 .banner-content{
 
     max-width: 580px;
@@ -241,7 +251,7 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 
 @media screen and (max-width: 576px) {
 
-    .skills-container, .resume-container, footer, .about-items{
+    .skills-container, .resume-container, footer, .about-items, .banner{
 
         flex-direction: column;
     }
